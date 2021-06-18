@@ -1,0 +1,24 @@
+import React from 'react'
+import {useSelector,useDispatch} from 'react-redux'
+function App()
+{
+	let state=useSelector(stateFromStore=>stateFromStore)
+	let dispatch=useDispatch()
+	
+	return ""	
+}
+export default App
+
+
+copy 1 App.jsx
+copy 1 Home.jsx
+copy 1 Admin.jsx
+copy 1 Faculty.jsx
+copy 1 Student.jsx
+copy 1 Courses.jsx
+copy 1 Slots.jsx
+copy 1 Batch.jsx
+copy 1 Chart.jsx
+copy 1 Graph.jsx
+copy 1 Planner.jsx
+copy 1 Attendance.jsx
